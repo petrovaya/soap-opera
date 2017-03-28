@@ -13,7 +13,8 @@ class Event {
 public:
     Event(Character* _c, int _num, std::string _name);
     ~Event();
-    void changeRelations(Character* _c, int _num, int _type); // changes the relation between the characters involved in the event
+    int getType () const;
+    void changeRelations(); // changes the relation between the characters involved in the event
     void print();
 };
 
