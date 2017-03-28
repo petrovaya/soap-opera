@@ -13,8 +13,11 @@ Event::Event(Character* _c, int _num, std::string _name) {
 void Event::print() {
 
 }
-
-void Event::changeRelations(Character* _c, int _num) {
+int Event::getType () const {
+    return type;
+}
+void Event::changeRelations() {
+    if(getType() == 1,2,3...){}
     // change the levels of sympathy, hatred, attraction concerning the type
 }
 
