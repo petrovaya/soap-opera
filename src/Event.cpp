@@ -9,14 +9,13 @@ Event::Event(Character* _c, int _num, std::string _name) {
     if(name == "murder") type = 1;
     if(name == "love") type = 2;
     //...
-    // adding points to attraction, sympathy, hatred, concerning the type.
 }
 void Event::print() {
-// no idea how we will transform murder/love to "Char1 killed Char2 / Char1 went to the cinema with Char2
+
 }
 
-void Event::changeRelations(Character* _c, int _num, int _type) {
-    // change the levels of sympathy, hatred, attraction
+void Event::changeRelations(Character* _c, int _num) {
+    // change the levels of sympathy, hatred, attraction concerning the type
 }
 
 Event::~Event() {
