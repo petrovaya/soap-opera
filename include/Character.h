@@ -10,19 +10,19 @@ class Character
         int age;
 
     public:
-        void set_name(string setName){
-            name = setName;
+        void setName(string set_name){
+            name = set_name;
         }
 
-        string get_name(){
+        string getName(){
             return name;
         }
 
-        void set_age(int setAge){
-            age = setAge;
+        void setAge(int set_age){
+            age = set_age;
         }
 
-        int get_age(){
+        int getAge(){
             return age;
         }
 
