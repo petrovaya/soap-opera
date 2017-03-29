@@ -5,7 +5,7 @@
 class Character
 {
     private:
-        int MAX = 40;
+        const int MAX = 40;
         string name [MAX];
         int age;
 
@@ -29,7 +29,7 @@ class Character
         bool isGoodPerson ()
 
         Character();
-        virtual ~Character();
+        ~Character();
 
 
 
