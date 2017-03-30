@@ -1,35 +1,35 @@
 #ifndef CHARACTER_H
 #define CHARACTER_H
 
-
+const int MAX = 40;
 class Character
 {
     private:
-        int MAX = 40;
+        
         string name [MAX];
         int age;
 
     public:
-        void set_name(string setName){
-            name = setName;
+        void setName(string setName1){
+            name = setName1;
         }
 
-        string get_name(){
+        string getName(){
             return name;
         }
 
-        void set_age(int setAge){
-            age = setAge;
+        void setAge(int setAge1){
+            age = setAge1;
         }
 
-        int get_age(){
+        int getAge(){
             return age;
         }
 
         bool isGoodPerson ()
 
         Character();
-        virtual ~Character();
+       ~Character();
 
 
 
